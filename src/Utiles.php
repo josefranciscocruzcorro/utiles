@@ -6,7 +6,7 @@ class Utiles
 {
     public static function validarCedula($cedula)
     {
-        $digitos = str_split('',$cedula);
+        $digitos = str_split($cedula);
 
         if (count($digitos) != 10 || $digitos[0] > 3) {
             return false;
@@ -29,7 +29,7 @@ class Utiles
     public static function validarRuc($ruc)
     {
         # code...
-        $digitos = str_split('',$ruc);
+        $digitos = str_split($ruc);
 
         if (count($digitos) != 13 || $digitos[0] > 3) {
             return false;

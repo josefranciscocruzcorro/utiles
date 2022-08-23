@@ -1,0 +1,13 @@
+{
+    "name": "josefranciscocruzcorro/utiles",
+    "description": "Libreria de funciones útiles a diversos propositos",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Josefranciscocruzcorro\\Utiles\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
